@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.administrator.myapplication.Activities.setting.SettingActivity"
+    tools:showIn="@layout/activity_setting">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/me"
+        android:orientation="horizontal"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/me"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/me"
+        android:orientation="vertical"
+        android:background="@color/gruy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+           <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--用户头像-->
+            <ImageView
+                android:id="@+id/SettingUserPic"
+                android:layout_margin="10dp"
+                android:src="@drawable/head64gruy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+               <!--用户名-->
+            <TextView
+                android:id="@+id/SettingUserName"
+                android:text="@string/TestUsername"
+                android:textSize="18sp"
+                android:layout_toEndOf="@+id/SettingUserPic"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+               <!--ID-->
+            <TextView
+                android:id="@+id/SettingUserId"
+                android:textSize="18sp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/SettingUserPic"
+                android:layout_toEndOf="@+id/SettingUserPic"
+                android:text="@string/userID" />
+               <!--测试ID-->
+            <TextView
+                android:id="@+id/SettingUserTest"
+                android:textSize="18sp"
+                android:text="@string/userIDTest"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_alignBottom="@+id/SettingUserPic"
+                android:layout_toEndOf="@+id/SettingUserId"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/right"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <!--相册-->
+        <LinearLayout
+            android:id="@+id/Album"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/album32blue"
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/album"
+            android:layout_weight="0.8"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line" />
+        <!--足迹-->
+        <LinearLayout
+            android:id="@+id/Footprint"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/footprint32yellow"
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="@string/album"
+                android:layout_weight="0.8"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right" />
+        </LinearLayout>
+        <!--设置-->
+        <LinearLayout
+            android:id="@+id/SettingSet"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/setting32blue"
+            android:layout_weight="0.1"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/Footprint"
+            android:layout_weight="0.8"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--底部按钮-->
+    <LinearLayout
+        android:id="@+id/mainBottom"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/locationIcon"
+            android:src="@drawable/location48blue"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/friendsIcon"
+            android:src="@drawable/human48blue"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/circleIcon"
+            android:src="@drawable/circle48blue"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/otherIcon"
+            android:src="@drawable/function48red"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

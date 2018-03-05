@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_android_client">AndroidClientActivity</string>
+    <string name="USERNAME">昵称</string>
+    <string name="PHONE">手机号</string>
+    <string name="EMAIL">邮箱</string>
+    <string name="Search">搜索</string>
+    <string name="Location">定位测试</string>
+    <string name="title_activity_location_test">LocationTestActivity</string>
+    <string name="LocationInfo">定位</string>
+    <string name="addressInfo">定位中》》》</string>
+    <string name="title_activity_location_test2">LocationTest2Activity</string>
+    <string name="Location2">定位测试2</string>
+    <string name="Location3">定位测试3</string>
+    <string name="Map2D">2D地图</string>
+    <string name="Navi">导航</string>
+    <string name="enterKeyword">请输入搜索关键词</string>
+    <string name="driveModel">驾车路线规划</string>
+
+    <!--天气-->
+    <string name="Weather">天气查询</string>
+    <string name="city">市</string>
+    <string name="weather_live">实时</string>
+    <string name="report_time">发布时间</string>
+    <string name="weather_forecast">预报</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+
+    <!--定位参数-->
+    <string name="useSensor">使用传感器</string>
+    <string name="onceLastest">提高首次定位精度</string>
+    <string name="cacheAble">开启缓存</string>
+    <string name="battery_saving">低功耗模式</string>
+    <string name="device_sensors">仅设备模式</string>
+    <string name="hight_accuracy">高精度模式</string>
+    <string name="interval">定位周期(ms)</string>
+    <string name="httpTimeout">网络超时(ms)</string>
+    <string name="location_once">单次定位</string>
+    <string name="needAddress">逆地理编码</string>
+    <string name="gpsFirst">GPS优先</string>
+    <string name="defaultHttpTimeout">30000</string>
+    <string name="defaultInteval">2000</string>
+
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="startLocation">开始定位</string>
+    <string name="stopLocation">停止定位</string>
+
+    <string name="title_location">获取定位数据</string>
+    <string name="title_activity_location_test3">LocationTest3Activity</string>
+    <string name="title_activity_map2_d">Map2DActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_amap_navi_view">AMapNaviView</string>
+    <string name="title_activity_navi_view">NaviView</string>
+    <string name="title_activity_navi">NaviActivity</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">账号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登陆</string>
+    <string name="findPWback">找回密码</string>
+    <string name="more">更多操作</string>
+    <string name="findPWbyPhone">已绑定手机号</string>
+    <string name="findPWbyPhoneIntroduce">可通过手机号+短信验证码登陆</string>
+    <string name="findPWbyEmail">已绑定邮箱</string>
+    <string name="findPWbyEmailIntroduce">可通过邮箱地址重设密码</string>
+    <string name="back">返回</string>
+    <string name="findPW">找回帐户密码</string>
+    <string name="otherway">无法通过以上方式找回找回密码</string>
+    <string name="Appeal">申诉找回账号密码</string>
+    <string name="loginByphone">用手机号登陆</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">用户名规则不正确</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">用户名或者密码不正确</string>
+    <string name="emailRegistered">邮箱已注册</string>
+    <string name="registerFailed">注册失败</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="enterPhone">请输入你的手机号</string>
+    <string name="phone">手机号</string>
+    <string name="enterNumber">请填写手机号码</string>
+    <string name="register">注册</string>
+    <string name="registerByemail">用邮箱注册</string>
+    <string name="enterEmail">请输入你的邮箱</string>
+    <string name="email">邮箱</string>
+    <string name="enterEm">请填写邮箱</string>
+    <string name="registerByphone">用手机号注册</string>
+    <string name="emailPW">密码</string>
+    <string name="enterEmailPW">请输入邮箱密码</string>
+
+    <!--地理围栏-->
+    <string name="fence">地理围栏</string>
+    <string name="fencName">名称</string>
+    <string name="fenceR">半径</string>
+    <string name="enterFenceName">请输入名称</string>
+    <string name="enterFenceR">请输入半径</string>
+    <string name="TriggeringConditions">触发条件:</string>
+    <string name="leave">离开</string>
+    <string name="enter">进入</string>
+    <string name="stay">停留</string>
+    <string name="setFence">设置围栏</string>
+
+    <!--登陆页-->
+    <string name="login">登陆</string>
+    <string name="title_activity_find_pw">FindPwActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_login_by_email">LoginByEmailActivity</string>
+    <string name="title_activity_main_page">MainPageActivity</string>
+    <string name="title_activity_circle_del">CircleDelActivity</string>
+
+    <!--朋友圈-->
+    <string name="moments">moments</string>
+    <string name="saySomething">Say something...</string>
+    <string name="shareTo">Share to...</string>
+    <string name="mention">mention</string>
+    <string name="ok">ok</string>
+    <string name="title_activity_circle_main">CircleMainActivity</string>
+
+    <!--zy-->
+    <string name="TestUsername">Liveus</string>
+
+    <!--主页-->
+    <string name="spotchat">SpotChat</string>
+    <string name="title_activity_main2">SettingActivity</string>
+
+    <!--设置页-->
+    <string name="album">相册</string>
+    <string name="userID">SpotChat:  </string>
+    <string name="userIDTest">shen1995410</string>
+    <string name="Footprint">足迹</string>
+    <string name="me">我</string>
+    <string name="title_activity_detail_personal_info">DetailPersonalInfoActivity</string>
+
+    <!--个人信息-->
+    <string name="personalInformation">个人信息</string>
+    <string name="head">头像</string>
+    <string name="name">名字</string>
+    <string name="more2">更多</string>
+    <string name="mycity">我的城市</string>
+    <string name="title_activity_around_activities">AroundActivities</string>
+    <string name="title_activity_fence">FenceActivity</string>
+    <!--输入提示-->
+    <string name="inputtips">输入提示</string>
+    <string name="title_activity_inputtips">InputtipsActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <!--地图主页-->
+    <string name="searchAround">探索附近</string>
+    <string name="title_activity_search_around">SearchAroundActivity</string>
+
+    <!--周边-->
+    <string name="mine">我的</string>
+    <string name="around">周边</string>
+    <string name="food">美食</string>
+    <string name="hotel">酒店</string>
+    <string name="parking">停车场</string>
+    <string name="bus">公交站</string>
+    <string name="spot">景点</string>
+    <string name="bank">银行</string>
+    <string name="gasstation">加油站</string>
+    <string name="supermarket">超市</string>
+    <string name="bathing">洗浴</string>
+    <string name="internet">网吧</string>
+    <string name="wc">厕所</string>
+    <string name="mall">商场</string>
+    <string name="hospitel">医院</string>
+    <string name="foottreatment">足疗</string>
+    <string name="subway">地铁站</string>
+
+    <string name="eat">吃</string>
+    <string name="chinesefood">中餐</string>
+    <string name="fastfood">快餐</string>
+    <string name="huoguo">火锅</string>
+    <string name="coffee">咖啡</string>
+    <string name="kfc">肯德基</string>
+    <string name="buffet">自助餐</string>
+    <string name="snack">小吃</string>
+    <string name="cake">蛋糕</string>
+    <string name="westFood">西餐</string>
+    <string name="Sichuanfood">川菜</string>
+
+    <string name="lodging">住</string>
+    <string name="expressInn">快捷酒店</string>
+    <string name="geustHouse">宾馆</string>
+    <string name="youthHostel">青年旅馆</string>
+    <string name="StarHotels">星级酒店</string>
+    <string name="hostel">旅馆</string>
+    <string name="themeHotel">主题酒店</string>
+    <string name="businessHotel">商务酒店</string>
+    <string name="FastChainHotel">快捷连锁</string>
+    <string name="guestHouse">招待所</string>
+    <string name="familyInn">家庭旅馆</string>
+    
+    <string name="Travel">出行</string>
+    <string name="busStop">公交站</string>
+    <string name="subwayStation">地铁站</string>
+    <string name="TrainStation">火车站</string>
+    <string name="busStation">汽车站</string>
+    <string name="airport">飞机场</string>
+    <string name="parkingLot">停车场</string>
+    <string name="FillingStation">加气站</string>
+    <string name="serviceArea">服务区</string>
+    <string name="TrainTicketSales">火车票代售</string>
+    <string name="ChargingPile">充电桩</string>
+    
+    <string name="tour">游</string>
+    <string name="park">公园</string>
+    <string name="Playground">游乐场</string>
+    <string name="ScenicView">名胜风景</string>
+    <string name="library">博物馆</string>
+    <string name="temples">寺庙</string>
+    <string name="BotanicalGarden">植物园</string>
+    <string name="Oceanarium">海洋馆</string>
+    <string name="zoo">动物园</string>
+    <string name="memorial">纪念馆</string>
+    <string name="waterPark">水上乐园</string>
+
+    <string name="tel">电话</string>
+
+</resources>

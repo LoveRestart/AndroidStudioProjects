@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.administrator.myapplication.Activities.Map.FenceActivity"
+    tools:showIn="@layout/activity_fence">
+
+    <LinearLayout
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.618"
+            android:layout_height="0dp">
+            <com.amap.api.maps.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </com.amap.api.maps.MapView>
+            <ImageView
+                android:id="@+id/fenceIcon"
+                android:src="@drawable/fence32gruy"
+                android:layout_margin="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <com.example.administrator.myapplication.Layout.CircleRelativeLayout
+                android:id="@+id/fenceInfo"
+                android:visibility="invisible"
+                android:layout_margin="5dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp">
+            <TextView
+                android:id="@+id/fencName"
+                android:text="@string/fencName"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/enterFenceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/fenceR"
+                android:hint="@string/enterFenceName"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/fencName" />
+             <TextView
+                 android:text="@string/fenceR"
+                 android:layout_below="@+id/fencName"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginStart="30dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/fenceR" />
+            <EditText
+                android:id="@+id/enterFenceR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/fenceR"
+                android:layout_below="@+id/enterFenceName"
+                android:layout_toEndOf="@+id/fencName"
+                android:hint="@string/enterFenceR" />
+             <TextView
+                 android:id="@+id/TriggeringConditions"
+                 android:text="@string/TriggeringConditions"
+                 android:layout_marginStart="30dp"
+                 android:layout_below="@+id/fenceR"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btAddFence"
+                android:text="@string/setFence"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/checkBox"
+                android:layout_below="@+id/TriggeringConditions"
+                android:layout_centerHorizontal="true"
+                android:text="@string/leave" />
+            <CheckBox
+                android:id="@+id/enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TriggeringConditions"
+                android:layout_toLeftOf="@+id/leave"
+                android:text="@string/enter" />
+            <CheckBox
+                android:id="@+id/stay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TriggeringConditions"
+                android:layout_toRightOf="@+id/leave"
+                android:text="@string/stay" />
+            </com.example.administrator.myapplication.Layout.CircleRelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0.382"
+            android:layout_height="0dp">
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

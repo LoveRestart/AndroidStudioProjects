@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myapplication.MainActivity">
+
+    <!--主页中段-->
+    <RelativeLayout
+        android:id="@+id/MainContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <EditText
+            android:id="@+id/SearchAll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="@string/Search" />
+
+        <Button
+            android:id="@+id/Test"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/SearchAll" />
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/Test"
+            android:text="@string/Location" />
+
+        <TextView
+            android:id="@+id/Location3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/Location"
+            android:text="@string/Location3" />
+
+        <TextView
+            android:id="@+id/Map2D"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/Location3"
+            android:text="@string/Map2D" />
+
+        <TextView
+            android:id="@+id/Navi"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/Map2D"
+            android:text="@string/Navi" />
+
+        <TextView
+            android:id="@+id/weather"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/Navi"
+            android:text="@string/Weather" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/Test"
+            android:layout_toRightOf="@id/Location"
+            android:text="@string/login" />
+        <TextView
+            android:id="@+id/toEmailRegister"
+            android:text="@string/registerByemail"
+            android:layout_toRightOf="@+id/Location3"
+            android:layout_below="@+id/login"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:id="@+id/fence"
+            android:text="@string/fence"
+            android:layout_toRightOf="@id/Location"
+            android:layout_below="@id/toEmailRegister"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:id="@+id/inputtips"
+            android:layout_below="@id/fence"
+            android:layout_toEndOf="@+id/Location"
+            android:text="@string/inputtips"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
